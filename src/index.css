@@ -141,6 +141,23 @@ section {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Hero  */
+/* -------------------------------------------------------------------------- */
+.jumbotron {
+  background-image: linear-gradient(25deg, #7a6effd2 0%, #21c87ad2 100%),
+    url('./assets/hero.png');
+  background-position: center;
+  background-position: cover;
+  min-height: 45vh;
+}
+.jumbotron h1 {
+  color: #ffffff;
+}
+.jumbotron p {
+  color: #ffffff;
+}
+
+/* -------------------------------------------------------------------------- */
 /* Footer  */
 /* -------------------------------------------------------------------------- */
 #footer span {

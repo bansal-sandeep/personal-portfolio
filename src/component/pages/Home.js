@@ -1,12 +1,11 @@
 import React from 'react';
+import Hero from '../reusable_components/Hero';
 
 const Home = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col" />
-      </div>
-    </div>
+    <React.Fragment>
+      <Hero />
+    </React.Fragment>
   );
 };
 
