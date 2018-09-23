@@ -1,5 +1,153 @@
+html,
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+/* -------------------------------------------------------------------------- */
+/* Basic Structure */
+/* -------------------------------------------------------------------------- */
+#container {
+  min-height: 100vh;
+  position: relative;
+}
+#body {
+  padding-bottom: 50px;
+}
+#footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  display: table;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Variables */
+/* -------------------------------------------------------------------------- */
+:root {
+  --heading-color: rgb(30, 32, 34);
+  --paragraph-color: #000000;
+  --letter-spacing: 1px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Typography */
+/* -------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  margin: 0 0 16px 0;
+  letter-spacing: var(--letter-spacing);
+}
+h1 {
+  font-size: 43px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--paragraph-color);
+  letter-spacing: var(--letter-spacing);
+}
+.bold {
+  font-weight: 500;
+}
+section {
+  margin-bottom: 90px;
+}
+.section-dark {
+  background-color: #f8fafd;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Re Usable */
+/* -------------------------------------------------------------------------- */
+.u-label {
+  background-color: rgba(0, 201, 167, 0.1);
+  border-bottom-left-radius: 99px;
+  border-bottom-right-radius: 99px;
+  border-top-left-radius: 99px;
+  border-top-right-radius: 99px;
+  padding: 8px 16px 8px 16px;
+  color: rgb(0, 201, 167);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 8px;
+  letter-spacing: var(--letter-spacing);
+}
+/* -------------------------------------------------------------------------- */
+/* Buttons */
+/* -------------------------------------------------------------------------- */
+.btn {
+  transition: all 0.2s ease-in-out;
+  letter-spacing: var(--letter-spacing);
+}
+.btn-primary-air {
+  background-color: rgba(55, 125, 255, 0.1);
+  color: #377dff;
+  border-color: transparent;
+}
+.btn-primary-air:hover {
+  background-color: #377dff;
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 4px 17px rgba(55, 125, 255, 0.35);
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+.btn-secondary-air {
+  background-color: rgba(0, 201, 167, 0.1);
+  color: #000000;
+  border-color: transparent;
+}
+.btn-secondary-air:hover {
+  background-color: rgb(0, 201, 167);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 4px 17px rgba(0, 201, 167, 0.1);
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Header  */
+/* -------------------------------------------------------------------------- */
+.navbar-brand {
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nav-link {
+  letter-spacing: var(--letter-spacing);
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Footer  */
+/* -------------------------------------------------------------------------- */
+#footer span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 200;
+  color: #ffffff;
+  letter-spacing: var(--letter-spacing);
 }
