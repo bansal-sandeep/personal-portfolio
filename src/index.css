@@ -138,6 +138,27 @@ section {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Card  */
+/* -------------------------------------------------------------------------- */
+.card-primary-air {
+  background-color: rgba(55, 125, 255, 0.1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.card-primary-air:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+.card-secondary-air {
+  background-color: rgba(0, 201, 167, 0.1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.card-secondary-air:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+/* -------------------------------------------------------------------------- */
 /* Header  */
 /* -------------------------------------------------------------------------- */
 .navbar {
@@ -164,6 +185,15 @@ section {
   padding: 90px 0px 90px 0px;
   margin-bottom: 40px;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Key Skills  */
+/* -------------------------------------------------------------------------- */
+.key-skills img {
+  max-height: 100px;
+  margin-bottom: 40px;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Footer  */
 /* -------------------------------------------------------------------------- */
