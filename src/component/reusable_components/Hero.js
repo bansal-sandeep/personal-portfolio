@@ -1,26 +1,23 @@
 import React from 'react';
-import heroSvg from '../../assets/svg/hero-img4.svg';
+import heroSvg from '../../assets/svg/hero-img.svg';
 
 const Hero = () => {
   return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="hero">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-8 col-lg-8">
-            <h1 className="mt-lg-5">Hi, I'am Sandeep Bansal</h1>
-            <p className="lead">
-              I'm a passionate full stack web developer with more than 1 years
-              of experience in UI/UX design, as well as in reactjs, nodejs and
-              mongodb. I'm based in Delhi, India.
+          <div className="col-sm-12 col-md-5 col-lg-5 mb-5">
+            <span className="u-label mt-lg-5">Full Stack Developer</span>
+            <h1>I'am sandeep bansal</h1>
+            <p>
+              A unique and beautiful collection of UI elements that are all
+              flexible and modular. A complete and customizable solution to
+              building the website of your dreams.
             </p>
+            <button className="btn btn-primary-air"> Check Me Out </button>
           </div>
-          <div className="col-sm-12 col-md-4 col-lg-4 text-center">
-            <img
-              src={heroSvg}
-              alt="hero img"
-              className="img-fluid"
-              width="250"
-            />
+          <div className="col-sm-12 col-md-7 col-lg-7">
+            <img src={heroSvg} alt="" className="img-fluid" />
           </div>
         </div>
       </div>
