@@ -160,9 +160,9 @@ section {
 /* Hero  */
 /* -------------------------------------------------------------------------- */
 .hero {
-  min-height: 100vh;
   background-color: #f8fafd;
-  padding: 90px 0px 0px 0px;
+  padding: 90px 0px 90px 0px;
+  margin-bottom: 40px;
 }
 /* -------------------------------------------------------------------------- */
 /* Footer  */
