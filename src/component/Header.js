@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Assests
+import logoImg from '../assets/logo.png';
+
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <Link to="/" className="navbar-brand">
-        Sandeep Bansal
+        <img src={logoImg} alt="logo" className="img-fluid" />
       </Link>
       <button
         className="navbar-toggler"
